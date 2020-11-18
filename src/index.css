@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Red {
+  color: white;
+  background-color: red !important;
+}
+
+.Blue {
+  color: white;
+  background-color: blue !important;
+}
+.Magenta {
+  color: white;
+  background-color: magenta !important;
+}
+.Yellow {
+  color: white;
+  background-color: yellow !important;
+}
+
+.Violet {
+  color: white;
+  background-color: violet !important;
+}
+
+.Orange {
+  color: white;
+  background-color: orange !important;
+}
+
+.SlateBlue {
+  color: white;
+  background-color: SlateBlue !important;
+}
+.Gray {
+  color: white;
+  background-color: gray !important;
+}
+
+.LightGray {
+  color: white;
+  background-color: lightgray !important;
+}
+
+.DodgerBlue {
+  color: white;
+  background-color: DodgerBlue !important;
+}
+
+.Tomato {
+  color: white;
+  background-color: Tomato !important;
+}
+.MediumSeaGreen {
+  color: white;
+  background-color: MediumSeaGreen !important;
+}
+
+.mediumorchid {
+  color: white;
+  background-color: mediumorchid !important;
+}
+
+.mediumpurple {
+  color: white;
+  background-color: mediumpurple !important;
+}

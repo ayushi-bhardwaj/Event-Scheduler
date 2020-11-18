@@ -1,0 +1,117 @@
+section {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  .event-content {
+    margin-top: 20px;
+    border-right: solid 2px;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    min-width: 70%;
+    min-height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .calendar {
+    max-width: 30%;
+    min-width: 30%;
+  }
+  
+  .react-calendar {
+    max-width: 100%;
+    margin: 100px auto;
+  }
+  
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 20px;
+    box-shadow: 0 0 3px #000000;
+    margin: 0 10px 20px 10px;
+  }
+  
+  .event-card-content {
+    padding: 0 0 16px 16px;
+  }
+  
+  .event-card-title {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .event-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .btn-add-event {
+    margin-bottom: 20px;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: #999494;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+  }
+  
+  .btn-add-event:hover,
+  .btn-add-event:active {
+    color: white;
+  }
+  
+  @media (max-width: 950px) {
+    .event-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 753px) {
+    .event-card {
+      width: 60%;
+    }
+    .event-list {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 733px) {
+    section {
+      flex-direction: column;
+    }
+    .event-content {
+      order: 2;
+      max-width: 100%;
+      border: none;
+    }
+    .calendar {
+      order: 1;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    .react-calendar {
+      margin: 50px auto;
+    }
+    .event-card {
+      width: 70%;
+    }
+  }
+  
